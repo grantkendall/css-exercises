@@ -1,27 +1,43 @@
+:root {
+  --global-padding: 8px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
+}
+
+h1 {
+  font-size: 18px;
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: var(--global-padding);
 }
 
 .title {
   background: #e3f4ff;
+  padding: var(--global-padding);
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: var(--global-padding);
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: var(--global-padding);
+  margin: 0 auto;
 }

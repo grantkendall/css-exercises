@@ -1,0 +1,19 @@
+p {
+    background-color: pink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+body div:first-of-type {
+    color: blue;
+    font-size: 36px;
+}
+
+body p:nth-child(3) {
+    font-size: 24px;
+}
+
+body div:last-of-type {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: 800;
+}
